@@ -1,72 +1,115 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>Phoenix editor</title>
-        <link rel="stylesheet" href="styles.css" />
-        <script src="script.js"></script>
-    </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chicago Bears Fan Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <body onload="onPageLoaded()">
-        <img id="starsLeft" alt="stars" src="images/stars-left.svg" />
-        <div id="mainDiv">
-            <img id="logo" alt="logo" src="images/phoenix-logo.svg" />
-            <div id="MainText">
-                <h1>Phoenix Code</h1>
-                <span>Click here to locate this &lt;span&gt; in the HTML file<br /></span><br />
-            </div>
-            <div class="video-container">
-                <a
-                    href="https://www.youtube.com/@phoenixcodeeditor3764"
-                    target="_blank"
-                    title="Phoenix YouTube Channel"
-                    class="phcode-no-lp-edit">
-                    <img
-                        src="images/youtube_video.png"
-                        alt="Phoenix Code on YouTube"
-                        title="Phoenix Code on YouTube"
-                        style="max-width: 320px" />
-                </a>
-                <img src="images/play.svg" class="play-button phcode-no-lp-edit" style="width: 64px;" alt="play">
-            </div>
-        </div>
-        <img id="cloudLeftTop" alt="cloud" src="images/vector-top-left.png" />
-        <img id="cloudBottomRight" alt="cloud" src="images/vector-bottom-right.png" />
-        <img id="starsRight" alt="stars" src="images/stars-right.svg" />
-        <img
-            class="clouds"
-            alt="cloud"
-            style="z-index: 3; transform: translate(0px, -1.55909px)"
-            src="images/cloud1.svg" />
-        <img
-            class="clouds"
-            alt="cloud"
-            style="z-index: 6; transform: translate(0px, -2.33863px)"
-            src="images/cloud2.svg" />
-        <img
-            class="clouds"
-            alt="cloud"
-            style="z-index: 5; transform: translate(0px, -3.89772px)"
-            src="images/cloud3.svg" />
-        <img
-            class="clouds"
-            alt="cloud"
-            style="z-index: 6; transform: translate(0px, -3.89772px)"
-            src="images/cloud4.svg" />
-        <div class="night">
-            <div class="shooting_star">
-                <div class="shooting_star" />
-            </div>
-        </div>
-        <div class="night">
-            <div class="shooting_star">
-                <div class="shooting_star" />
-            </div>
-        </div>
-        <div class="night">
-            <div class="shooting_star">
-                <div class="shooting_star" />
-            </div>
-        </div>
-    </body>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="header-container">
+      <h1>Bear down Hub</h1>
+      <nav>
+        <ul>
+          <li><a href="#history">Franchise History</a></li>
+          <li><a href="#legends">Bears Legends</a></li>
+          <li><a href="#schedule">Schedule & Stats</a></li>
+          <li><a href=#“stadium”>Soldier field</a></li> 
+        </ul>
+      </nav>
+    </div>
+<p class="tagline">Bear Down! Celebrating over 100 years of iconic Chicago football history.</p> 
+  </header>
+
+  <!-- Main Content Area -->
+  <main>
+    <!-- Section 1: History -->
+    <section id="history" class="content-section">
+      <h2>Franchise History & Legacy</h2>
+      <img 
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Soldier_Field_on_June_26%2C_2020.jpg/1200px-Soldier_Field_on_June_26%2C_2020.jpg" alt="Exterior view of Soldier Field stadium in Chicago, home of the Chicago Bears" class="section-image">
+      <p>Founded in 1920 as the Decatur Staleys by George Halas, the Chicago Bears are one of the charter franchises of the National Football League (NFL). The team relocated to Chicago in 1921 and became the Bears in 1922. Known for their legendary defense and rich tradition, the Bears play home games at historic <a href="https://www.soldierfield.com" target="_blank" rel="noopener noreferrer">Soldier Field</a> on Chicago's lakefront.</p>
+    </section>
+
+    <!-- Section 2: Legends -->
+    <section id="legends" class="content-section">
+      <h2>Hall of Fame Legends</h2>
+      <div class="legends-grid">
+        <article class="card">
+          <img src="https://via.placeholder.com/300x200/C83803/FFFFFF?text=Walter+Payton" alt="Walter Payton" class="card-image">
+          <h3>Walter Payton</h3>
+          <p>Running back "Sweetness" dominated the NFL from 1975 to 1987, winning Super Bowl XX and establishing himself as one of football's greatest players of all time.</p>
+        </article>
+        <article class="card">
+          <img src="https://via.placeholder.com/300x200/0B162A/FFFFFF?text=Dick+Butkus" alt="Dick Butkus" class="card-image">
+          <h3>Dick Butkus</h3>
+          <p>The ultimate middle linebacker, Dick Butkus defined Chicago Bears defense with his ferocious tackling and unmatched passion on the field.</p>
+        </article>
+        <article class="card">
+          <img src="https://via.placeholder.com/300x200/C83803/FFFFFF?text=Mike+Singletary" alt="Mike Singletary" class="card-image">
+          <h3>Mike Singletary</h3>
+          <p>Hall of Fame linebacker and middle commander of the famed 1985 "Monsters of the Midway" defense that captured Super Bowl XX.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 3: Schedule & Stats Table -->
+    <section id="schedule" class="content-section">
+      <h2>Season Highlights & Schedule</h2>
+      <p>Check out key matchup highlights and franchise statistics below. For full rosters and updates, visit the <a href="https://www.chicagobears.com" target="_blank" rel="noopener noreferrer">Official Chicago Bears Website</a>.</p>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Week</th>
+              <th>Opponent</th>
+              <th>Location</th>
+              <th>Key Spotlight</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Week 1</td>
+              <td>Green Bay Packers</td>
+              <td>Soldier Field</td>
+              <td>Rivalry Matchup</td>
+            </tr>
+            <tr>
+              <td>Week 4</td>
+              <td>Minnesota Vikings</td>
+              <td>U.S. Bank Stadium</td>
+              <td>Division Clash</td>
+            </tr>
+            <tr>
+              <td>Week 8</td>
+              <td>Detroit Lions</td>
+              <td>Soldier Field</td>
+              <td>NFC North Showdown</td>
+            </tr>
+            <tr>
+              <td>Week 12</td>
+              <td>Green Bay Packers</td>
+              <td>Lambeau Field</td>
+              <td>Historic Rematch</td>
+            </tr>
+<tr>
+<td>Week 18</td>
+<td>Chicago Bears vs Minnesota Vikings</td>
+<td>Soldier Field</td>
+<td>Regular Season Finale</td></tr> 
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Chicago Bears Fan Hub. Created for educational purposes. Data courtesy of <a href="https://www.nfl.com/teams/chicago-bears/" target="_blank" rel="noopener noreferrer">NFL.com</a>.</p>
+  </footer>
+
+</body>
 </html>
